@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-function KeyValueData() {
+function KeyValueData({listener}) {
 
     const [key, setKey] = useState('');
     const [value, setValue] = useState('');
