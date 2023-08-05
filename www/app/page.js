@@ -24,6 +24,8 @@ export default function Home() {
       <ul>
         <li><a href="/debug">Debug WebSocket</a></li>
         <li><a href="/sensors/pir">PIR Light Sensor</a></li>
+        <li><a href="/sensors/moisture">Soil Moisture Sensor</a></li>
+        <li><a href="/sensors/fire">Fire Sensor</a></li>
       </ul>
     </main>
   )

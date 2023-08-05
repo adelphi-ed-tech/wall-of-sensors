@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\srv",
+    "\\www",
+    "\\www\\app",
+    "\\www\\app\\sensors",
+    "\\www\\app\\sensors\\fire",
+    "\\www\\app\\sensors\\fire\\fireinfo"
   ],
-  "SelectedNode": "\\C:\\Users\\delan\\Source\\Repos\\wall-of-sensors",
+  "SelectedNode": "\\www\\app\\page.js",
   "PreviewInSolutionExplorer": false
 }
