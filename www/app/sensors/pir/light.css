@@ -1,0 +1,30 @@
+.lamp {
+    width: 100px;
+    height: 200px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .bulb {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .lit .bulb {
+    background-color: #ffec80;
+    border: 1px solid #ffcc00;
+  }
+  
+  .unlit .bulb {
+    background-color: #ddd;
+  }

@@ -8,3 +8,25 @@ function Pir() {
 }
 
 export default Pir;
+
+// pir_light.js
+import React, { useState } from 'react';
+
+const Light = () => {
+  const [isOn, setIsOn] = useState(false);
+
+  const toggleLight = () => {
+    setIsOn(!isOn);
+  };
+
+  return (
+    <div>
+      <h2>PIR Light Sensor</h2>
+      <div className={`light ${isOn ? 'on' : 'off'}`} onClick={toggleLamp}>
+        <div className={`bulb ${isOn ? 'lit' : 'unlit'}`} />
+      </div>
+    </div>
+  );
+};
+
+export default light;
