@@ -6,7 +6,6 @@ function Pir() {
         </main>
     )
 }
-
 export default Pir;
 
 // pir_light.js
@@ -30,3 +29,5 @@ const Light = () => {
 };
 
 export default light;
+import ".pir_light";
+//where to import the css light file
